@@ -1,0 +1,63 @@
+.container {
+  margin: 20px auto;
+  width: 800px;
+  
+}
+th {
+  text-align: left;
+}
+#mainLogo {
+  height:60px;
+  width:60px;
+  border: 4px solid #6b6b6b;
+  border-radius: 4px;
+  color: #6b6b6b;
+  font-size: 52px;
+  text-align: center;
+}
+
+#logowrapper {
+  text-align: right;
+  width:60px;
+}
+
+#submitBreaker {
+  width: 33px;
+}
+form {
+  display: inline-block;
+}
+nav {
+  display:block;
+  width: 100%;
+  height: auto;
+  border: 1px solid white;
+  background-color: #6b6b6b;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  border-radius: 5px;
+}
+
+nav div {
+  display: inline-block;
+
+  margin-right: 20px;
+}
+
+nav div a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+
+}
+
+#logo {
+  height: 30px;
+  width: 30px;
+  border: 2px solid white;
+  border-radius: 2px;
+  font-size: 26px;
+  background-color: #6b6b6b;
+  text-align: center;
+}

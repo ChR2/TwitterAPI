@@ -1,0 +1,15 @@
+User.create(username: "jsuich", password: "1234")
+User.create(username: "jfrancis", password: "1234")
+
+Post.create(user_id: 2, title: "Java Developers Hard to Find", url: "http://www.eweek.com/c/a/IT-Management/Mobile-Java-Developers-Hard-to-Find-Dice-691423/")
+Post.create(user_id: 1, title: "Ruby Developers Hard to Find", url: "http://www.eweek.com/c/a/IT-Management/Mobile-Java-Developers-Hard-to-Find-Dice-691423/")
+Post.create(user_id: 2, title: "JavaScript Developers Hard to Find", url: "http://www.eweek.com/c/a/IT-Management/Mobile-Java-Developers-Hard-to-Find-Dice-691423/")
+Post.create(user_id: 1, title: "Perl Developers Hard to Find", url: "http://www.eweek.com/c/a/IT-Management/Mobile-Java-Developers-Hard-to-Find-Dice-691423/")
+Post.create(user_id: 2, title: "Python Developers Hard to Find", url: "http://www.eweek.com/c/a/IT-Management/Mobile-Java-Developers-Hard-to-Find-Dice-691423/")
+
+Comment.create(user_id: 1, post_id: 1, content: "True dat!")
+Comment.create(user_id: 2, post_id: 2, content: "Nuff said!")
+Comment.create(user_id: 1, post_id: 3, content: "Yo momma said dat!")
+Comment.create(user_id: 2, post_id: 4, content: "Really?!")
+Comment.create(user_id: 1, post_id: 4, content: "Go figure!")
+Comment.create(user_id: 2, post_id: 1, content: "I farted!")
